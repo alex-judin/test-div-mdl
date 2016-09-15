@@ -1,0 +1,79 @@
+		.card {
+			margin: 0px;
+			padding: 0px;
+			padding-top:1px; 
+			width: 300px;
+			height: 400px;
+			box-sizing: border-box;
+			border-radius: 3px;
+			box-shadow: 0px 4px 6px 1px rgba(0,0,0,0.5);		
+		}
+		.card-image {
+			margin: 0px;
+			padding: 0px;
+			width: 100%;
+			height: 270px;
+			position: relative;
+			background-color: #000000;
+			box-sizing: border-box;
+			overflow: hidden;
+		}
+		.card-image img {
+			/*max-width: 100%;
+			object-fit: cover;*/
+		}
+		.card-image-title {
+			position: absolute;
+			z-index: 999;
+			padding: 10px 15px 20px 15px;
+			top: 180px;
+			left: 0px;
+			width: 100%;
+			height: 90px;
+			background-color: rgba(0,0,0,0.3);
+			font-family: helvetica;
+			font-size: 24px;
+			color: #ffffff;
+			line-height: 30px;
+			box-sizing: border-box;
+		}
+		.card-text {
+			margin: 0px;
+			padding: 15px 15px 10px 15px;
+			width: 100%;
+			height: 84px;
+			font-size: 14px;
+			line-height: 18px;
+			font-family: helvetica;
+			border: 1px solid #E0E0E0;		
+			box-sizing: border-box;
+		}
+		.card-link {
+			margin: 0px;
+			padding: 3px 0px 0px 10px;
+			width: 100%;
+			height: 44px;		
+			box-sizing: border-box;
+		}
+ 		.card-link-button {
+			margin: 0px;
+			padding: 10px 10px 3px 10px;
+			width: 40%;
+			height: 24px;
+			font-size: 14px;
+			font-family: helvetica;
+			text-align: center;
+			
+			border-radius: 4px;
+		}
+		.card-link a {
+			text-decoration: none;
+			color: #2196F3;
+		}
+		.card-link-button:hover {
+			background-color:#EEEEEE; 
+		}
+/*		.card:hover {
+			box-shadow: 0px 4px 6px 5px rgba(0,0,0,0.5);
+					}*/
+	

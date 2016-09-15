@@ -1,0 +1,722 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<link rel="stylesheet" type="text/css" href="css/style-main.css">
+  	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+  	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  	<script src="js/myscript.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Контроль защищенности компьютерных сетей</title>
+  </head>
+  <body>
+  <div id="menu-wrapper" class="menu-wrapper-fix">
+      <nav class="menu">
+        <div class="nav-logo nav-common-style">
+          <div class="nav-logo-image">
+            <a href="index.html"><img src="img/logo.jpg"></a>
+          </div>
+          <div class="nav-logo-menu" onclick="panelShow()">
+            <img src="img/hamburger.jpg" width="60px">
+          </div>
+        </div>
+        <div class="nav-title nav-common-style">
+          Защищенность сети
+        </div>
+        <div class="nav-items nav-common-style">
+          <ul class="nav-hor">
+            <li name="menuItem" class="active" onclick="changeChoice(0)"><a href="#">Главная</a></li>
+            <li name="menuItem" onclick="changeChoice(1)"><a href="#stat">Статьи</a></li>
+            <li name="menuItem" onclick="changeChoice(2)"><a href="#">Патент</a></li>
+            <li name="menuItem" onclick="changeChoice(3)"><a href="#model">Модель</a></li>
+            <li name="menuItem" onclick="changeChoice(4)"><a href="#avtors">Авторы</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+   
+    <div id="panel" class="menu-panel">
+      <div class="panel-title">
+        Защищенность сети
+      </div>
+          <ul class="nav-ver">
+            <li onclick="panelClose()"><a href="index.html">Главная</a></li>
+            <li onclick="panelClose()"><a href="#stat">Статьи</a></li>
+            <li onclick="panelClose()"><a href="#">Патент</a></li>
+            <li onclick="panelClose()"><a href="#model">Модель</a></li>
+            <li onclick="panelClose()"><a href="#avtors">Авторы</a></li>
+          </ul>
+    </div>
+    <div id="mywindow" onclick="panelClose()">
+      
+    </div>
+
+    
+  <div class="first-wrapper">
+    <div id="first-screen">
+      Как улучшить работу администратора сети?
+    </div> 
+    <a name="stat">&nbsp;</a> 
+  </div>
+
+
+
+  <div class="content-1">    
+      <div class="block clearfix" >
+        <!-- карточки -->
+        <div class="stat-inner">
+
+          <!-- 1-я карточка -->
+          <div class="card">
+            <div class="card-image">
+            <img src="img/1-1.jpg">
+              <div class="card-image-title">
+                Защищенность компьютерных сетей
+              </div>
+            </div>
+            <div class="card-text">
+                Контроль защищенности способствует достижению необходимого уровня безопасности компьютерных сетей
+            </div>
+            <div class="card-link">
+              <div class="card-link-button">
+                <a href="html/control-assesment.html">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="stat-inner">
+        <!-- 2-я карточка -->
+          <div class="card">
+            <div class="card-image">
+            <img src="img/35-1-1.jpg">
+              <div class="card-image-title">
+                Защищенность проводных сетей
+              </div>
+            </div>
+            <div class="card-text">
+                Контроль защищенности способствует достижению необходимого уровня безопасности проводных сетей
+            </div>
+            <div class="card-link">
+              <div class="card-link-button">
+                <a href="html/control-assesment-network.html">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stat-inner">
+        <!-- 3-я карточка -->
+          <div class="card">
+            <div class="card-image">
+            <img src="img/3-1.jpg">
+              <div class="card-image-title">
+                Защищенность беспроводных сетей
+              </div>
+            </div>
+            <div class="card-text">
+                Контроль защищенности способствует достижению необходимого уровня безопасности беспроводных сетей
+            </div>
+            <div class="card-link">
+              <div class="card-link-button">
+                <a href="html/control-assesment-wireless-network.html">ПОДРОБНЕЕ</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <a name="model">&nbsp;</a>
+      </div> <!-- конец блока статей -->
+
+  <div class="block clearfix">
+    <div class="patent-left">
+            <!-- контент -->
+            <article>
+              <header>
+                <h3>Модель</h3>
+              </header>
+                  <p>
+                    Демонстрирует работу алгоритма контроля защищенности беспроводной сети, учитывающего ее динамический характер. Работа алгоритма базируется на значениях двух величин: качества связи конкретного узла с точкой доступа и уровня заряда его батареи. Критерием оценки работы алгоритма является количество проверенных беспроводных узлов. С целью повышения качества контроля защищенности, алгоритмом, в первую очередь  проверяются узлы, уровень заряда батереи которых относительно невысокий, а качество связи достаточно хорошее.
+                  </p>
+                  <p>
+                    Учет первого фактора позволяет уменьшить риск не возможности проверить узел вследствие разряда батареи. Второй фактор обеспечивает проведения контроля в течение минимально воможного времени: чем лучше связь, тем меньше беспроводным узлам требуется времени  для обмена сообщениями.
+                </p>
+            </article>  
+          </div>
+
+          <div class="patent-middle">
+            <!-- контент -->
+            <article>
+              <header>
+                <h3>Условия</h3>
+              </header>
+                  <p>
+                    Моделируется павильон выставочного комплекса длинной и шириной 60 метров. В павильоне установлены четыре дочки доступа, размещенные в центрах четырех одинаковых квадратов, на которые можно разбить площадь павильона. Покрытие точек доступа делится на пять зон, в зависимости от обеспечиваемого качества связи. Самое лучшее качество связи, безусловно, обеспечивается в центре зоны и постепенно ухудшается к ее краям.  
+                  </p>
+            </article>
+          </div>
+          <div class="patent-right">
+            <!-- контент -->
+            <article>
+              <header>
+                <h3>&nbsp;</h3>
+              </header>
+                  <p>
+                      В пределах покрытия каждой точки доступа находится особая зона, обозначенная малиновым цветом. Эта зона имитирует места в выставочном павильоне, в которых обычно посетители задерживаются на некоторое время, ознакамливаясь с представленными экспонатами. То есть попадание узла в такую зону вызывает задержку его движения на некоторое время от 3 до 5 минут.
+                </p>            
+            </article>
+          </div>
+  </div>
+    
+  <!--<div class="myclass">-->
+    <div id="leftbar-2" onclick="closeWindow()">
+     Operation complete!
+    </div>
+  <!--</div>  -->
+   <!--контент -->  
+    <div class="block clearfix">
+    <div class="leftbar">
+      <canvas id="test">
+        Renew your browser!
+      </canvas>      
+    </div>
+
+    <div class="rightbar">    
+     <form name="beginValue" action="#">
+      <h4 align="center">Исходные значения</h4>
+          <table mdl-data-table border="1" cellspacing="1" cellpadding="5" width="100%">
+            <tr>
+              <td valign="middle">
+                Количество узлов 
+              </td>
+              <td>
+                <input type="text" value="20" size="12" placeholder="число 1-99" id="numberNode" onchange="changeNode()">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Количество проверок 
+              </td>
+              <td>
+                <input type="text" value="30" size="12" id="numberProv" placeholder="число 1-99" onchange="changeProv()">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Время проверки
+              </td>
+              <td>
+                <input type="text" value="10" placeholder="число 1-99" size="12" id="timeProv" onchange="changeTime()">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Период разряда батареи 
+              </td>
+              <td>
+                <input type="text" value="60" size="12" placeholder="число 1-999" id="period" onchange="changePeriod()">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                использовать AI
+              </td>
+              <td id="box">
+                <input type="checkbox" id="AI" checked="true" onclick="changeBox()">&nbsp;&nbsp;установлено
+              </td>
+            </tr>
+          </table>
+          <div class="my-box">  
+          
+          </div>  
+            </form>
+
+
+  <div class="rightbar-footer">
+      <button id="mybutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="mainModule()">
+                  Начать проверку
+      </button>
+  </div>
+              
+  <div class="circle">
+    <img src="img/circle-red.gif" id="circle-red"> - узел проверяется
+  </div>
+  <div class="circle">
+    <img src="img/circle-green.gif" id="circle-green"> - узел проверен 
+  </div>
+  <div class="circle">
+    <img src="img/circle-yellow.gif" id="circle-yellow">  - узел не проверен: разряжена батарея
+  </div>
+
+          <div id="timeWork">
+        
+          </div>
+          <div id="testComplete">
+        
+          </div>
+      </div> <!-- rightbar -->
+      <a name="avtors">&nbsp;</a>
+    </div> <!-- model -->
+  <div class="visual">
+    <div id="myTable">
+      
+    </div>
+  </div>  
+
+  <!-- diagramm -->
+  <div id="chart">
+      <div id="piechart">
+        
+      </div>
+      <div id="piechart-1">
+        
+      </div>
+    </div>
+      
+      
+  <div class="block clearfix">
+
+    <div class="avtors-inner">
+        <div align="center">
+          <img src="img/ya.jpg" class="fix-image">
+        </div>
+        <div class="avtors-inner-text ">
+          <q><cite>Предлагаемые подходы к организации контроля защищенности могут найти применение для решения широкого круга различных прикладных задач, свяанных с появлением и повсеместным распространением нового класса беспроводных устройств - Интернета вещей.</cite></q>
+        </div>
+    </div>
+    <div class="avtors-inner">
+        <div align="center">
+          <img src="img/mazul.jpg" width="150" class="fix-image">
+        </div>
+        <div class="avtors-inner-text ">
+          <q><cite>Сегодня конфигурацию программных и аппаратных средств, составляющих инфраструктуру сети, её соответствие установленным корпоративным стандартам и политикам безопасности, принято характеризовать термином “здоровье” (health). Соответственно контроль за “здоровьем” узла сети помогает защитить не только его, но и компьютерную сеть в целом.</cite></q>
+        </div>
+    </div>
+    <div class="avtors-inner">
+        <div align="center">
+          <img src="img/xlaponin.jpg" width="150" class="fix-image">
+        </div>
+        <div class="avtors-inner-text ">
+          <q><cite>Построение системы контроля защищенности беспроводной компьютерной сети на основе нейро-нечеткой (гибридной) сети, позволяет повысить эффективность процесса анализа уязвимостей за счет учета важных характеристик беспроводных узлов.</cite></q>
+        </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div id="myfooter" class="clearfix">
+  <!-- footer-->
+  <footer class="block clearfix footer-color">
+    <div class="footer-top">
+      <div class="footer-top-left">
+        <img src="img/p.jpg" width="32px" >
+        <img src="img/t.jpg" width="32px">
+        <img src="img/f.jpg" width="32px">
+      </div>
+      <div class="footer-top-right">
+        <a href="#">Introduction</a>&nbsp;&nbsp;&nbsp;
+        <a href="#">App Status Dashboard</a>&nbsp;&nbsp;&nbsp;
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+    <div class="footer-middle clearfix">
+      <div class="footer-middle-left">
+        <h1 class="footer-title">Контроль защищенности</h1>
+        <ul class="footer-link-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="#stat">Статьи</a></li>
+          <li><a href="#">Патент</a></li>
+          <li><a href="#model">Модель</a></li>
+          <li><a href="#avtors">Авторы</a></li>
+        </ul>
+      </div>
+      <div class="footer-middle-right">
+        <h1 class="footer-title">Just for Developers</h1>
+        <ul class="footer-link-list">
+          <li><a href="#">Google Developers</a></li>
+          <li><a href="#">AdWords API</a></li>
+          <li><a href="#">AdWords Scipts</a></li>
+          <li><a href="#">AdWords Remarketing Tag</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-title">
+        More Information
+      </div>
+      <div class="footer-bottom-list">
+          <a href="#">Help</a>&nbsp;&nbsp;&nbsp;
+          <a href="#">Privacy and Terms</a>
+    </div>
+    </div>
+  </footer>
+  </div>
+
+  <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      var form = document.forms.beginValue;
+      //var kol_node = form.elements.numberNode.value;
+      var kol_node = parseInt(document.getElementById("numberNode").value);
+      //var kol_prov = form.elements.numberProv.value;
+      var kol_prov = parseInt(document.getElementById("numberProv").value);
+
+      var timeProvForm = parseInt(document.getElementById("timeProv").value);
+      //var timeProvForm = form.elements.timeProv.value;
+      var useAI = document.getElementById("AI").checked;
+
+      var myperiod = parseInt(document.getElementById("period").value);
+      var periodAV = parseInt(document.getElementById("period").value);
+      var myWindowHeight = screen.availHeight;
+      var myWindowWidth = screen.availWidth;
+      var myScreenHeight = screen.height;
+      var myScreenWidth = screen.width;
+
+      var myLeftBar2 = document.getElementById("leftbar-2");
+      var myFirstScreenText = document.getElementById("first-screen-text");
+      var myFirstScreen = document.getElementById("first-screen");
+      //var menuWrapper = document.getElementById("menu-wrapper");
+      var myFooter = document.getElementById("myfooter");
+      var timeWork = 0, endWork = 0;
+      var arrayOfAP = [];
+
+      function screenSize()
+      {
+        alert('width='+screen.width+' height='+screen.height);
+      }
+
+    window.onresize = function changeBackgroundImage() {
+
+    //  if (screen.width>300 && screen.width<480) {myFirstScreen.style.background = "url('img/600x800.jpg')"; myFirstScreen.style.background.size = "cover"};
+    //  if (screen.width>480 && screen.width<768) {myFirstScreen.style.background = "url('img/800x1000.jpg')"; myFirstScreen.style.background.size = "cover"};
+    //  if (screen.width>768) {myFirstScreen.style.background = "url('img/1920x1080.jpg')"; myFirstScreen.style.background.size = "cover"};
+    } 
+
+    var myelem = document.getElementById("numberNode");
+
+      document.getElementById("numberNode").onfocus = function()
+      {//myelem.style.background = '#b3e5fc';
+      }
+      
+      document.getElementById("numberNode").onblur = function()
+      {
+        kol_node = document.getElementById("numberNode").value;
+        if (/^([1-9])([0-9]){0,1}$/.test(kol_node))
+       {
+        document.getElementById("mybutton").removeAttribute('disabled');
+       }
+        else
+       { 
+        document.getElementById("numberNode").focus();
+        document.getElementById("numberNode").value ='ошибка!';
+        document.getElementById("mybutton").setAttribute('disabled','true');
+       }
+      }
+
+      document.getElementById("numberProv").onblur = function()
+      {
+        kol_prov = document.getElementById("numberProv").value;
+        if (/^([1-9])([0-9]){0,1}$/.test(kol_prov))
+       {
+        document.getElementById("mybutton").removeAttribute('disabled');
+       }
+        else
+       { 
+        document.getElementById("numberProv").focus();
+        document.getElementById("numberProv").value ='ошибка!';
+        document.getElementById("mybutton").setAttribute('disabled','true');
+       }
+      }
+    
+      document.getElementById("timeProv").onblur = function()
+      {
+        timeProvForm = document.getElementById("timeProv").value;
+        if (/^([1-9])([0-9]){0,1}$/.test(timeProvForm))
+       {
+        document.getElementById("mybutton").removeAttribute('disabled');
+       }
+        else
+       { 
+        document.getElementById("timeProv").focus();
+        document.getElementById("timeProv").value ='ошибка!';
+        document.getElementById("mybutton").setAttribute('disabled','true');
+       }
+      }
+
+      document.getElementById("period").onblur = function()
+      {
+        periodAV = document.getElementById("period").value;
+        myperiod = document.getElementById("period").value;
+
+        if (/^([1-9])([0-9]){0,2}$/.test(periodAV))
+       {
+        document.getElementById("mybutton").removeAttribute('disabled');
+       }
+        else
+       { 
+        document.getElementById("period").focus();
+        document.getElementById("period").value ='ошибка!';
+        document.getElementById("mybutton").setAttribute('disabled','true');
+       }
+      }
+
+
+      document.getElementById("numberNode").onkeypress = function(e)
+      {return (/^[0-9]$/.test(String.fromCharCode(e.charCode)));}
+
+      document.getElementById("numberProv").onkeypress = function(e)
+      {return (/^[0-9]$/.test(String.fromCharCode(e.charCode)));}
+
+      document.getElementById("timeProv").onkeypress = function(e)
+      {return (/^[0-9]$/.test(String.fromCharCode(e.charCode)));}
+
+      document.getElementById("period").onkeypress = function(e)
+      {return (/^[0-9]$/.test(String.fromCharCode(e.charCode)));}
+
+      //myFirstScreen.style.width =  myScreenWidth + "px";
+      //myFirstScreen.style.height = myScreenHeight + "px";
+      //menuWrapper.style.width =  myScreenWidth + "px";
+      myFooter.style.width =  myScreenWidth + "px";
+
+      var mywidth = 0;
+      var myheight = 0;
+      if (screen.width>300 && screen.width<=360) {mywidth = 300; myheight = 300; ratio = 0.5;};
+      if (screen.width>360 && screen.width<=420) {mywidth = 360; myheight = 360; ratio = 0.6;};
+      if (screen.width>420 && screen.width<=480) {mywidth = 420; myheight = 420; ratio = 0.7;};
+      if (screen.width>480 && screen.width<=520) {mywidth = 480; myheight = 480; ratio = 0.8;};
+      if (screen.width>520 && screen.width<640) {mywidth = 480; myheight = 480; ratio = 0.9;};
+      if (screen.width>=640) {mywidth = 600; myheight = 600; ratio = 1;};
+          //console.log(mywidth+' '+myheight);
+
+    function myTableCreate(rows)
+    {
+      var temp;
+      var stroka = '<table border="1" cellspacing="0" cellpadding="5" width="95%">';
+        stroka = stroka + '<th>Номер узла</th><th>Время проверки (s)</th><th>Время простоя (s)</th>';
+        stroka = stroka + '<th>Расстояние (m)</th><th>Результат</th>';
+         for (var j = 0; j<rows; j++)
+         {
+          stroka = stroka + '<tr bgcolor=';
+          if (arrayOfNode[j].resultTest == 2) { temp = '#b3e5fc';} else {temp = '#ffffff';}
+          
+          stroka = stroka +temp;
+
+          stroka = stroka +'><td>'+(j+1)+'</td><td>'+arrayOfNode[j].total+'</td><td>'+arrayOfNode[j].totalTimeOfLongStop+'</td><td>'+Math.floor((arrayOfNode[j].pathNode/(600*ratio))*60)+'</td><td>';
+          
+          if (arrayOfNode[j].resultTest == 1) {temp = 'проверен'}
+          if (arrayOfNode[j].resultTest == 2) {temp = 'не проверен'}
+          if (arrayOfNode[j].resultTest == 0) {temp = 'не проверен'}    
+          stroka = stroka + temp;
+          stroka = stroka +'</td></tr>'; 
+         }
+         stroka = stroka + '</table>';
+         document.getElementById('myTable').innerHTML = stroka;
+    } 
+    function matrixArray(rows,columns)
+    {
+      var arr = new Array ();
+      for (var i = 0; i<columns; i++)
+      {
+        arr[i] = new Array ();
+
+         for (var j = 0; j<rows; j++)
+         {
+          arr[i][j] = null; 
+         }
+      }
+      return arr;
+    }
+
+    function myArray (number)
+    {
+      var arr = new Array ();
+      for (var i = 0; i<number; i++)
+      {
+          arr[i] = null; 
+      }
+      return arr;
+    }
+
+
+    var SequenceForAPNode = [];
+    var SequenceForAPValue = [];
+    var i11 = [];
+  //console.log(SequenceForAPNode);
+
+    // задаем коэффициенты умножения
+  //  if (screen.height == 1024) {ratio = 1.5}
+  //  if (screen.height == 768) {ratio = 1.19}
+
+  //  console.log(screen.height);
+  //  console.log(ratio);
+      
+    function AP (x,y) {
+        this.x = x,
+        this.y = y
+        } 
+
+  //задаем координаты точек доступа - АР
+    var i=0;
+      while (i<=3)
+     {
+          
+      if (i==0) {
+        x = Math.round(150*ratio);
+        y = Math.round(150*ratio);      
+              arrayOfAP[i] = new AP(x,y);
+              //console.log(i+' '+arrayOfAP[i].x+' '+arrayOfAP[i].y);
+         }
+      if (i==1) {
+              x = Math.round(450*ratio);
+          y = Math.round(150*ratio);
+              arrayOfAP[i] = new AP(x,y);
+              //console.log(i+' '+arrayOfAP[i].x+' '+arrayOfAP[i].y);
+         }
+      if (i==2) {
+              x = Math.round(150*ratio);
+              y = Math.round(450*ratio);
+              arrayOfAP[i] = new AP(x,y);
+              //console.log(i+' '+arrayOfAP[i].x+' '+arrayOfAP[i].y);
+         }
+      if (i==3) {
+              x = Math.round(450*ratio);
+              y = Math.round(450*ratio);
+              arrayOfAP[i] = new AP(x,y);
+              //console.log(i+' '+arrayOfAP[i].x+' '+arrayOfAP[i].y);
+         }
+         i++;
+     }
+
+          function stopTesting(nomer)
+      {
+          document.getElementById("mybutton").removeAttribute('onclick');
+          document.getElementById("mybutton").setAttribute('onclick','mainModule()');
+          document.getElementById("mybutton").innerHTML = "Начать проверку ";
+          clearInterval(nomer);
+          myLeftBar2.style.display = 'block';
+          myTableCreate(kol_node);
+          drawMyChart();        
+      } 
+
+    fon();
+    initStopZone();
+    zona(arrayOfAP[0].x,arrayOfAP[0].y);
+    zona(arrayOfAP[1].x,arrayOfAP[1].y);
+    zona(arrayOfAP[2].x,arrayOfAP[2].y);
+    zona(arrayOfAP[3].x,arrayOfAP[3].y);
+
+
+  //console.log(arrayKZ[34][99]);
+
+  function mainModule ()
+  {
+
+    //здесь нужно изменить свойства кнопки
+    document.getElementById("mybutton").removeAttribute('onclick');
+    document.getElementById("mybutton").setAttribute('onclick','stopTesting(timerNomer)');
+    document.getElementById("mybutton").innerHTML = "Остановить проверку";
+    
+    if (timeWork !==0)
+    {
+      timeWork = 0;
+      endWork = 0;
+      nodeTestComplete = 0;
+      document.getElementById('myTable').innerHTML = '';
+      document.getElementById('piechart-1').innerHTML = '';
+      document.getElementById('piechart').innerHTML = '';
+      var diag = document.getElementById('piechart');diag.style.height ="0px";
+      var diag1 = document.getElementById('piechart-1');diag1.style.height ="0px";
+      document.getElementById('testComplete').innerHTML = 'Проверено узлов: ';
+      for (var k=0; k<kol_zone;k++)
+      {
+        countNodeInStopZone[k] = 0;
+      }
+    }
+
+   
+    initNode();
+    
+
+    SequenceForAPNode = matrixArray(kol_node,4);
+    SequenceForAPValue = matrixArray(kol_node,4);
+    i11 = myArray(kol_node);
+
+      // определяем важность узлов
+      importantNode();
+      // формируем последовательность для точек доступа
+      sequenceForAP();
+      //сортируем последовательность
+      if (useAI) {sortSequenceForAP();}
+
+  var start = Date.now(); // сохранить время начала
+  var timerID = setInterval(function() {
+    // вычислить сколько времени прошло с начала анимации
+    var timePassed = Date.now() - start;
+    //if (timePassed >= 1000) {
+      
+      //myLeftBar2.style.display = 'block';
+      //return;
+    //}
+    timerNomer = timerID;
+    document.getElementById("mybutton").removeAttribute('onclick');
+    document.getElementById("mybutton").setAttribute('onclick','stopTesting(timerNomer)');
+    document.getElementById("mybutton").innerHTML = "Остановить проверку";
+
+    // рисует состояние анимации, соответствующее времени timePassed
+    fon();
+    zona(arrayOfAP[0].x,arrayOfAP[0].y);
+    zona(arrayOfAP[1].x,arrayOfAP[1].y);
+    zona(arrayOfAP[2].x,arrayOfAP[2].y);
+    zona(arrayOfAP[3].x,arrayOfAP[3].y);
+    moveNode();
+    proverkaNodes();
+      
+      timeWork = timeWork + 1;
+      
+      if (timeWork == myperiod)
+         { dischargeBattery();
+           myperiod = myperiod + periodAV;
+           //console.log('myperiod='+myperiod+' periodAV='+periodAV);
+         }
+
+      document.getElementById('timeWork').innerHTML = timeWork;
+      if (nodeTestComplete !==0) {document.getElementById('testComplete').innerHTML = 'Проверено узлов: '+nodeTestComplete}
+
+      // проверка окончания контроля узлов
+      endWork = 0;
+      for (var i= 0; i<kol_node; i++)
+      {
+        if (arrayOfNode[i].resultTest !== 0)
+        {
+          endWork = endWork + 1;
+        }
+      } 
+
+      if (endWork == kol_node) {stopTesting(timerID)}
+
+  },100);
+
+
+
+  }
+
+  </script>
+
+
+    </div>
+
+  </div>
+  </main>
+  </div>
+  </div>
+  <div class="block">
+    <center>
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="screenSize()">
+                  Размер экрана
+      </button>
+    </center>
+  </div>
+  <script src="js/menu.js"></script>
+  </body>
+  </html>
